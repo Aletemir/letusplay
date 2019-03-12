@@ -1,0 +1,37 @@
+[
+    {
+        "name": "openxbl/openxbl",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/OpenXBL/OpenXBL-PHP.git",
+            "reference": "765e95307231fbb8df98bc4a92d9dc1c3b059ca7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/OpenXBL/OpenXBL-PHP/zipball/765e95307231fbb8df98bc4a92d9dc1c3b059ca7",
+            "reference": "765e95307231fbb8df98bc4a92d9dc1c3b059ca7",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phing/phing": "^2.14",
+            "phpdocumentor/phpdocumentor": "2.*",
+            "phpunit/phpunit": "4.*",
+            "squizlabs/php_codesniffer": "2.*"
+        },
+        "time": "2018-10-16T15:55:40+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "OpenXBL\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Wrapper for OpenXBL"
+    }
+]
